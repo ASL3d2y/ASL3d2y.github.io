@@ -1,0 +1,285 @@
+body {
+    margin: 0;
+}
+
+.banner_1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://www.wufenglins.com.tw/upload/Banner/F_201905291409lekR0S50.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    opacity: 0.65;
+}
+
+.title_1 {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    position: absolute;
+    left: calc(50% - 230px);
+    top: calc(50% - -10px);
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.title_1:hover {
+    color: rgb(255, 255, 134);
+}
+
+.content_1 {
+    padding: 50px 80px;
+    font-family: 微軟正黑體;
+    background-color: white;
+    font-weight: bold;
+}
+
+.text_title {
+    color: #6ec4e8;
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    padding: 20px 0;
+    letter-spacing: 5px;
+}
+
+.hr1 {
+    border: none;
+    background-color: #6ec4e8;
+    height: 3px;
+    width: 50px;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+
+.text_content {
+    text-align: justify;
+    color: #777;
+    line-height: 2;
+    text-indent: 2em;
+}
+
+.banner_2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://img.carollin.tw/uploads/20170606025422_61.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    opacity: 0.65;
+}
+
+.title_2 {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: 微軟正黑體;
+    padding: 10px 15px;
+    position: absolute;
+    left: calc(50% - 120px);
+    top: calc(50% - 33px);
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.title_2:hover {
+    color: rgb(255, 255, 134);
+}
+
+.content_2 {
+    padding: 50px 80px;
+    font-family: 微軟正黑體;
+    background-color: #111;
+    color: white;
+    font-weight: bold;
+}
+
+.banner_3 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://travel.taichung.gov.tw/Utility/DisplayImage?id=12582&rnd=1429171988989);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    opacity: 0.65;
+}
+
+.title_3 {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-family: 微軟正黑體;
+    padding: 10px 15px;
+    position: absolute;
+    left: calc(50% - 80px);
+    top: calc(50% - 33px);
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.text_title2 {
+    color: #47c270;
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    padding: 20px 0;
+    letter-spacing: 5px;
+}
+
+.hr2 {
+    border: none;
+    background-color: #47c270;
+    height: 3px;
+    width: 50px;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+
+.banner_4 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(http://www.mths.tc.edu.tw/mths_building/photo/photo/5.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    opacity: 0.65;
+}
+
+.title_4 {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-family: 微軟正黑體;
+    padding: 10px 15px;
+    position: absolute;
+    left: calc(50% - 135px);
+    top: calc(50% - 33px);
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.nav {
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.616);
+}
+
+span {
+    border: 1px solid black;
+}
+
+.li_item:hover {
+    color: rgba(138, 232, 255, 0.774);
+}
+
+.banner_5 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://www.thelinfamily.org.tw/upload/web/building/01.%e8%90%8a%e5%9c%92%e6%99%af%e8%89%b2-%e5%9c%92%e9%96%80.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    opacity: 0.65;
+}
+
+.title_2 {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    position: absolute;
+    left: calc(50% - 100px);
+    top: calc(50% - -10px);
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.banner_6 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://apoarea.tw/wp-content/uploads/20191226101457_44.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.traffic {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18pt;
+    margin-top: 40px;
+}
+
+.t_text {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    background-color: rgb(255, 177, 88);
+    color: rgb(255, 255, 86);
+}
+
+.t_text:hover {
+    background-color: rgb(255, 158, 46);
+    text-align: center;
+}
+
+.car {
+    width: 1000px;
+    height: 95px;
+    border-radius: 5px;
+    background-color: rgb(255, 234, 238);
+    margin: 0 auto;
+}
+
+.bus {
+    width: 1000px;
+    height: 95px;
+    border-radius: 5px;
+    background-color: rgb(255, 234, 238);
+    margin: 0 auto;
+}
+
+.mrt {
+    width: 1000px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(255, 234, 238);
+    margin: 0 auto;
+}
+
+.banner_7 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/27/%E9%9C%A7%E5%B3%B0%E6%9E%97%E5%AE%B6%E5%AE%AE%E4%BF%9D%E7%AC%AC%E7%AC%AC%E4%B8%80%E9%80%B2%E9%96%80%E5%BB%B3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.div {
+    width: 100%;
+    height: 5vh;
+    background-color: rgba(80, 80, 80, 0.589);
+}
