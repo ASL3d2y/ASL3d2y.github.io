@@ -1,0 +1,35 @@
+.img1 {
+    width: 60%;
+    margin-left: 10vw;
+    margin-top: 20vh;
+}
+
+.article {
+    margin-top: 5vh;
+    margin-left: 10vw;
+    padding-right: 14vw;
+    text-align: justify;
+}
+
+.b_title {
+    font-weight: bold;
+    padding-left: 4vw;
+}
+
+p {
+    font-size: 8pt;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.img2 {
+    width: 50%;
+    margin-top: 2vh;
+}
+
+.img3 {
+    float: right;
+    width: 50%;
+    margin-top: -43vh;
+    margin-left: 18vw;
+}
