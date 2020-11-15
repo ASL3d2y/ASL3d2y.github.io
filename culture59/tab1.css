@@ -9,7 +9,7 @@ body {
 
 .container{
     padding-left: 1%;
-    padding-right: 17%;
+    padding-right: 15%;
     margin: 0 auto;
 }
 
@@ -32,20 +32,20 @@ body {
 }
 
 .img1 {
-    width: 87%;
+    width: 82%;
     margin-left: 14vw;
     margin-top: 20vh;
 }
 
 .article {
     margin-top: 10vh;
-    margin-left: 15vw;
+    margin-left: 13vw;
     text-align: justify;
 }
 
 .b_title {
     font-weight: bold;
-    padding-left: 1vw;
+    padding-left: 2.5vw;
     font-size: 16pt;
 }
 
@@ -53,19 +53,19 @@ p {
     margin-top: 2vh;
     margin-bottom: 2vh;
     padding-left: 8%;
-    padding-right: 2%;
+    padding-right: 6%;
     letter-spacing: 0.3pt;
 
 }
 
 .img2 {
-    width: 53%;
+    width: 47.5%;
     margin-top: 2vh;
-    margin-left: -1vw;
+    margin-left: 1.5vw;
 }
 
 .img3 {
-    width: 53%;
+    width: 47.5%;
     height: 30%;
     margin-top: 2vh;
     margin-left: 1vw;
@@ -77,39 +77,66 @@ p {
 }
 
 .img4 {
-    width: 108%;
-    margin-left: -1vw;
+    width: 95%;
+    margin-left: 2vw;
     margin-top: 15vh;
 }
 
 .img5 {
-    width: 53%;
+    width: 46%;
     margin-top: 5vh;
-    margin-left: -1vw;
+    margin-left: 2vw;
 }
 
 .img_text {
-    margin-left: 22vw;
+    margin-left: 20vw;
     margin-top: 1vh;
-    font-size: 10pt;
 }
 
 .img_article {
-    margin-left: 37vw;
+    margin-left: 35vw;
     margin-top: -52vh;
     text-align: justify;
 }
 
 .img_p{
-    padding-left: 4%;
-    padding-right: unset;
+    padding-left: 8%;
+    padding-right: 4%;
     letter-spacing: 2.5pt;
 }
 
 .b_hr {
-    width: 71vw;
-    margin-left: -2%;
+    width: 66vw;
     margin-top: 15%;
+    margin-left: 2vw;
+}
+
+.img6 {
+    width: 95%;
+    margin-left: 2vw;
+    margin-top: 15vh;
+}
+
+.article2 {
+    margin-left: 2vw;
+    margin-top: 10vh;
+    text-align: justify;
+}
+
+.img7 {
+    width: 46.5%;
+    margin-left: 3vw;
+    margin-top: 5vh;
+}
+
+.img8 {
+    width: 46.5%;
+    margin-top: 5vh;
+}
+
+.img_text2{
+    margin-top: 1vh;
+    margin-left: 55vw;
 }
 
 .footer {
