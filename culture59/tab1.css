@@ -45,7 +45,7 @@ body {
 
 .b_title {
     font-weight: bold;
-    padding-left: 2.5vw;
+    padding-left: 3.25vw;
     font-size: 16pt;
 }
 
@@ -89,24 +89,24 @@ p {
 }
 
 .img_text {
-    margin-left: 20vw;
+    margin-left: 24vw;
     margin-top: 1vh;
 }
 
 .img_article {
     margin-left: 35vw;
-    margin-top: -52vh;
+    margin-top: -40vh;
     text-align: justify;
 }
 
 .img_p{
-    padding-left: 8%;
-    padding-right: 4%;
+    padding-left: 9%;
+    padding-right: 10%;
     letter-spacing: 2.5pt;
 }
 
 .b_hr {
-    width: 66vw;
+    width: 65vw;
     margin-top: 15%;
     margin-left: 2vw;
 }
@@ -136,7 +136,7 @@ p {
 
 .img_text2{
     margin-top: 1vh;
-    margin-left: 55vw;
+    margin-left: 58vw;
 }
 
 .footer {
