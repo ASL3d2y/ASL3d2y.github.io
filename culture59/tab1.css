@@ -55,7 +55,6 @@ p {
     padding-left: 8%;
     padding-right: 6%;
     letter-spacing: 0.3pt;
-
 }
 
 .img2 {
@@ -107,7 +106,7 @@ p {
 
 .b_hr {
     width: 67vw;
-    margin-top: 15%;
+    margin-top: 15vh;
     margin-left: 2vw;
 }
 
@@ -137,6 +136,23 @@ p {
 .img_text2{
     margin-top: 1vh;
     margin-left: 58vw;
+}
+
+.img9 {
+    width: 92%;
+    margin-left: 4vw;
+    margin-top: 15vh;
+}
+
+.img10 {
+    width: 45%;
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+
+.img11 {
+    width: 45%;
+    margin-top: 5vh;
 }
 
 .footer {

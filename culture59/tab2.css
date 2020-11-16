@@ -7,9 +7,9 @@ body {
     background-color: #DBD4D0;
 }
 
-.container{
+.container {
     padding-left: 1%;
-    padding-right: 15%;
+    padding-right:  15%;
     margin: 0 auto;
 }
 
@@ -35,7 +35,82 @@ body {
     width: 82%;
     margin-left: 14vw;
     margin-top: 20vh;
+    margin-bottom: 8vh;
 }
+
+.img_p1 {
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 14vw;
+    margin-top: 2vh;
+}
+
+.b_hr {
+    width: 68vw;
+    margin-top: 12vh;
+    margin-left: 14vw;
+}
+
+.img2 {
+    width: 30%;
+    margin-left: 14vw;
+    margin-top: 20vh;
+    margin-bottom: 8vh;
+}
+
+.img_article {
+    margin-top: 55vh;
+    text-align: justify;
+}
+
+.img_p2 {
+    font-size: 20pt;
+    font-weight: bold;
+    margin-left: 2vw;
+    letter-spacing: 2.5pt;
+}
+
+.img_p3 {
+    font-size: 14pt;
+    font-weight: bold;
+    margin-left: 5.5vw;
+    margin-top: 1vw;
+    letter-spacing: 2.5pt;
+}
+
+.group1{
+    display: flex;
+}
+
+.article {
+    margin-top: 3vh;
+    margin-left: 14.5vw;
+    text-align: justify;
+}
+
+
+.b_title {
+    font-weight: bold;
+    padding-left: 3.25vw;
+    font-size: 16pt;
+}
+
+p {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    padding-left: 8%;
+    padding-right: 10%;
+    letter-spacing: 0.3pt;
+}
+
+.img3 {
+    width: 82%;
+    margin-left: 14vw;
+    margin-top: 5vh;
+    margin-bottom: 8vh;
+}
+
 
 .footer {
     width: 100%;
