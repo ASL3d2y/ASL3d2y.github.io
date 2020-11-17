@@ -64,13 +64,51 @@ p {
 }
 
 
-
-.img_text {
-    margin-left: 75vw;
-    margin-top: 2vh;
-    margin-bottom: 5vh;
+.group1 {
+    display: flex;
 }
 
+.group2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.img2 {
+    width: 40%;
+    margin-left: 14vw;
+    margin-top: 5vh;
+}
+
+.img3 {
+    width: 40%;
+    margin-top: 5vh;
+    margin-left: 1.5vw;
+}
+
+.img4 {
+    width: 82%;
+    margin-left: 14vw;
+    margin-top: 10vh;
+}
+
+.img6 {
+    width: 93%;
+    margin-top: 5.5vh;
+    margin-left: 1vw;
+}
+
+.img7 {
+    width: 93%;
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+
+.img5 {
+    width: 40%;
+    margin-left: 14vw;
+    margin-top: 5.5vh;
+    margin-bottom: 8vh;
+}
 
 .footer {
     width: 100%;
