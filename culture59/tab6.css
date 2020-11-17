@@ -1,6 +1,7 @@
 * {
     margin: 0;
     transition: 0.5s;
+    font-family: "微軟正黑體";
 }
 
 body {
@@ -64,11 +65,82 @@ p {
 }
 
 .img_text {
-    margin-left: 75vw;
+    margin-left: 72vw;
     margin-top: 2vh;
     margin-bottom: 5vh;
 }
 
+.img_text2 {
+    margin-left: 75vw;
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+}
+
+.img2 {
+    width: 27%;
+    margin-left: 14vw;
+    margin-top: 5vh;
+}
+
+.img3 {
+    width: 27%;
+    margin-left: 14vw;
+    margin-top: 2vh;
+}
+
+.img4 {
+    width: 40%;
+    height: 50%;
+    margin-left: -75vw;
+    margin-top: 5vh;
+}
+
+.group1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.group2 {
+    display: flex;
+}
+
+.img5 {
+    width: 93%;
+    margin-left: 0.5vw;
+    margin-top: 5vh;
+}
+
+.img6 {
+    width: 93%;
+    margin-left: 0.5vw;
+    margin-top: 2vh;
+}
+
+.img7 {
+    width: 40%;
+    height: 50%;
+    margin-left: 14vw;
+    margin-top: 5vh;
+}
+
+.img9 {
+    width: 40%;
+    margin-left: 14vw;
+    margin-top: 5vh;
+}
+
+.img10 {
+    width: 40%;
+    margin-top: -47vh;
+    margin-left: 49vw;
+}
+
+
+.img11 {
+    width: 82%;
+    margin-left: 14vw;
+    margin-top: 7vh;
+}
 
 .footer {
     width: 100%;

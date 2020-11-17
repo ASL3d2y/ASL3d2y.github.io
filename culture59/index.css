@@ -1,10 +1,16 @@
 * {
     margin: 0;
     transition: 0.5s;
+    font-family: "微軟正黑體";
 }
 
 body {
     background-color: #DBD4D0;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .nav_bar {
@@ -44,17 +50,14 @@ ul {
     margin-top: 10vh;
     width: 40vw;
 }
+.IMG1:hover {
+    opacity: 0.5;
+}
 
 .text1 {
     margin-top: 3vh;
     margin-bottom: 6vh;
     text-align: center;
-}
-
-.IMG1 {
-    margin-left: 10vw;
-    margin-top: 7vh;
-    width: 40vw;
 }
 
 .text1 {
@@ -68,11 +71,12 @@ ul {
 .IMG2 {
     margin-left: 19.5vw;
     margin-top: 15vh;
+    margin-bottom: 10vh;
     width: 40vw;
 }
 
 .IMG2:hover {
-    width: 100%;
+    opacity: 0.5;
 }
 
 .text2 {
