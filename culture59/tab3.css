@@ -89,23 +89,23 @@ p {
 }
 
 .img4 {
-    width: 60%;
+    width: 66.5%;
     margin-top: 5.5vh;
-    margin-left: 14vw;
+    margin-left: 15vw;
 }
 
 .img5 {
-    width: 60%;
+    width: 66.5%;
     margin-top: 1vh;
-    margin-left: 14vw;
+    margin-left: 15vw;
 }
 
 .img6 {
-    width: 40%;
+    width: 42%;
     height: 20%;
-    margin-left: -7vw;
     margin-top: 5.5vh;
     margin-bottom: 8vh;
+    margin-right: 2vw;
 }
 
 .b_hr {
@@ -115,13 +115,13 @@ p {
 }
 
 .img7 {
-    width: 82%;
-    margin-left: 14vw;
+    width: 78%;
+    margin-left: 16vw;
     margin-top: 5vh;
 }
 
 .img_text2 {
-    margin-left: 71vw;
+    margin-left: 69vw;
     margin-top: 1vh;
     margin-bottom: 5vh;
 }
