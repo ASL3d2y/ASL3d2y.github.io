@@ -8,10 +8,10 @@ body {
     background-color: #DBD4D0;
 }
 
-a{
+a {
     text-decoration: none;
     font-weight: bold;
-    color:black;
+    color: black;
 }
 
 .nav_bar {
@@ -24,7 +24,6 @@ a{
     position: fixed;
     display: flex;
 }
-
 
 .logo {
     font-weight: bold;
@@ -51,6 +50,7 @@ ul {
     margin-top: 10vh;
     width: 40vw;
 }
+
 .IMG1:hover {
     opacity: 0.5;
 }
@@ -230,21 +230,21 @@ ul {
     display: flex;
 }
 
-.left{
+.left {
     display: flex;
     flex-direction: column;
     text-align: right;
     margin-left: 4vw;
 }
 
-.right{
+.right {
     display: flex;
     flex-direction: column;
     text-align: left;
     margin-left: 1vw;
 }
 
-.right_t{
+.right_t {
     display: flex;
     flex-direction: column;
     font-size: 8pt;
@@ -269,3 +269,112 @@ ul {
     border: white solid 1px;
 }
 
+.text_content_p {
+    display: none;
+}
+
+.white {
+    display: none;
+}
+
+.white2 {
+    display: none;
+}
+
+.text_content_p2 {
+    display: none;
+}
+
+.text_content_p3 {
+    display: none;
+}
+
+@media(max-width:375px) {
+    .container {
+        padding-left: 1%;
+        padding-right: 1%;
+        margin: 0 auto;
+    }
+    .IMG1 {
+        margin-left: 14vw;
+        margin-top: 10vh;
+        width: 90%;
+    }
+    .text1 {
+        margin-left: 13vw;
+    }
+    hr {
+        margin-left: 10vw;
+    }
+    .IMG2 {
+        margin-left: 14vw;
+        margin-top: 8vh;
+        float: left;
+        width: 90%;
+    }
+    .text2 {
+        width: 250px;
+        height: 100px;
+        margin-top: -15vh;
+        margin-left: 16vw;
+        float: left;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .text_content {
+        display: none;
+    }
+    .text_content_p {
+        display: unset;
+        color: blue;
+        margin-top: 3vh;
+        margin-left: 2vw;
+    }
+    .text_content_p2 {
+        display: unset;
+        color: blue;
+        margin-top: 3vh;
+        margin-left: 8vw;
+    }
+    .text_content_p3 {
+        display: unset;
+        color: blue;
+        margin-top: 3vh;
+        margin-left: 10vw;
+    }
+    .IMG3 {
+        margin-left: 14vw;
+        margin-top: 8vh;
+        float: left;
+        width: 90%;
+    }
+    .white {
+        display: unset;
+        width: 10px;
+        height: 100px;
+        background-color: white;
+        margin-left: 70vw;
+        margin-top: -8.5vh;
+        float: left;
+    }
+    .text3 {
+        width: 250px;
+        height: 100px;
+        margin-top: -5vh;
+        margin-left: 27vw;
+        float: left;
+    }
+    .text_content2 {
+        display: none;
+    }
+    .white2 {
+        display: unset;
+        width: 10px;
+        height: 100px;
+        background-color: white;
+        margin-left: -6vw;
+        margin-top: -6vh;
+        float: left;
+    }
+}
