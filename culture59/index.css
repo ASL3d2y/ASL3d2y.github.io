@@ -291,20 +291,21 @@ ul {
 
 @media(max-width:375px) {
     .container {
-        padding-left: 1%;
-        padding-right: 1%;
+        padding-left: 10%;
+        padding-right: 10%;
         margin: 0 auto;
     }
     .IMG1 {
-        margin-left: 14vw;
+        margin-left: 5vw;
         margin-top: 10vh;
-        width: 90%;
+        width: 110%;
     }
     .text1 {
-        margin-left: 13vw;
+        font-size: 15pt;
+        margin-left: 10vw;
     }
     hr {
-        margin-left: 10vw;
+        margin-left: 20vw;
     }
     .IMG2 {
         margin-left: 14vw;
@@ -315,7 +316,7 @@ ul {
     .text2 {
         width: 250px;
         height: 100px;
-        margin-top: -15vh;
+        margin-top: -12vh;
         margin-left: 16vw;
         float: left;
         background-color: white;
@@ -361,8 +362,8 @@ ul {
     .text3 {
         width: 250px;
         height: 100px;
-        margin-top: -5vh;
-        margin-left: 27vw;
+        margin-top: -3vh;
+        margin-left: 12vw;
         float: left;
     }
     .text_content2 {
@@ -374,17 +375,20 @@ ul {
         height: 100px;
         background-color: white;
         margin-left: -6vw;
-        margin-top: -6.1vh;
+        margin-top: -6vh;
         float: left;
+    }
+    .text7 {
+        width: 130%;
     }
     .right_t {
         margin-top: 26.5vh;
         margin-left: 3vw;
     }
-    .left{
+    .left {
         margin-left: 10vw;
     }
-    .right{
+    .right {
         margin-left: 8vw;
     }
     .footer {
