@@ -78,7 +78,7 @@ ul {
     width: 250px;
     height: 200px;
     background-color: white;
-    margin-top: -30%;
+    margin-top: -33%;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -396,5 +396,116 @@ ul {
     }
     .f_content {
         width: 80%;
+    }
+}
+
+
+@media(max-width:765px) {
+    .container {
+        padding-left: 10%;
+        padding-right: 10%;
+        margin: 0 auto;
+    }
+    .IMG1 {
+        margin-left: 2vw;
+        margin-top: 10vh;
+        width: 95%;
+    }
+    .text1 {
+        font-size: 15pt;
+        margin-left: 3vw;
+    }
+    hr {
+        margin-left: 2vw;
+    }
+    .IMG2 {
+        margin-left: 5vw;
+        margin-top: 8vh;
+        float: left;
+        width: 90%;
+    }
+    .text2 {
+        width: 250px;
+        height: 100px;
+        margin-top: -12vh;
+        margin-left: 38vw;
+        float: left;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .text_content {
+        display: none;
+    }
+    .text_content_p {
+        display: unset;
+        color: blue;
+        margin-top: 3vh;
+        margin-left: 1vw;
+    }
+    .text_content_p2 {
+        display: unset;
+        color: blue;
+        margin-top: 3vh;
+        margin-left: 8vw;
+    }
+    .text_content_p3 {
+        display: unset;
+        color: blue;
+        margin-top: 3vh;
+        margin-left: 10vw;
+    }
+    .IMG3 {
+        margin-left: 6vw;
+        margin-top: 8vh;
+        float: left;
+        width: 90%;
+    }
+    .white {
+        display: unset;
+        width: 10px;
+        height: 100px;
+        background-color: white;
+        margin-left: 35vw;
+        margin-top: -8.5vh;
+        float: left;
+    }
+    .text3 {
+        width: 250px;
+        height: 100px;
+        margin-top: -3vh;
+        margin-left: 10vw;
+        float: left;
+    }
+    .text_content2 {
+        display: none;
+    }
+    .white2 {
+        display: unset;
+        width: 10px;
+        height: 100px;
+        background-color: white;
+        margin-left: -4vw;
+        margin-top: -6vh;
+        float: left;
+    }
+    .text7 {
+        width: 100%;
+    }
+    .right_t {
+        margin-top: 26.5vh;
+        margin-left: 3vw;
+    }
+    .left {
+        margin-left: 10vw;
+    }
+    .right {
+        margin-left: 8vw;
+    }
+    .footer {
+        width: 100%;
+    }
+    .f_content {
+        width: 50%;
     }
 }
