@@ -290,13 +290,16 @@ ul {
 }
 
 @media(max-width:375px) {
+    .logo {
+        padding-left: 15vw;
+    }
     .container {
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 5%;
+        padding-right: 2%;
         margin: 0 auto;
     }
     .IMG1 {
-        margin-left: 5vw;
+        margin-left: 30vw;
         margin-top: 10vh;
         width: 110%;
     }
@@ -305,7 +308,8 @@ ul {
         margin-left: 10vw;
     }
     hr {
-        margin-left: 20vw;
+        width: 100%;
+        margin-left: 15vw;
     }
     .IMG2 {
         margin-left: 14vw;
@@ -316,8 +320,8 @@ ul {
     .text2 {
         width: 250px;
         height: 100px;
-        margin-top: -12vh;
-        margin-left: 16vw;
+        margin-top: -15vh;
+        margin-right: 30vw;
         float: left;
         background-color: white;
         padding-left: 10px;
@@ -355,7 +359,7 @@ ul {
         width: 10px;
         height: 100px;
         background-color: white;
-        margin-left: 70vw;
+        margin-left: 65vw;
         margin-top: -8.5vh;
         float: left;
     }
@@ -379,14 +383,13 @@ ul {
         float: left;
     }
     .text7 {
+        font-size: 2pt;
         width: 130%;
     }
     .right_t {
         margin-top: 26.5vh;
-        margin-left: 3vw;
-    }
-    .left {
-        margin-left: 10vw;
+        margin-left: -15vw;
+        padding-left: -2vw;
     }
     .right {
         margin-left: 8vw;
@@ -399,24 +402,54 @@ ul {
     }
 }
 
+@media(max-width:1440px) {
+    .white {
+        display: none;
+    }
+    .white2 {
+        display: none;
+    }
+    .text2 {
+        width: 250px;
+        height: 200px;
+        background-color: white;
+        margin-top: -33vh;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .text3 {
+        margin-top: -14.5vh;
+        margin-left: 41vw;
+    }
+    .text7 {
+        height: 800px;
+    }
+    .right {
+        margin-left: 2vw;
+    }
+    .right_t {
+        margin-top: 16.5vh;
+    }
+}
 
 @media(max-width:765px) {
     .container {
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 5%;
+        padding-right: 2%;
         margin: 0 auto;
     }
     .IMG1 {
-        margin-left: 2vw;
-        margin-top: 10vh;
-        width: 95%;
+        margin-left: -2vw;
+        margin-top: 8vh;
+        width: 100%;
     }
     .text1 {
         font-size: 15pt;
-        margin-left: 3vw;
+        margin-left: 10vw;
     }
     hr {
-        margin-left: 2vw;
+        width: 100%;
+        margin-left: -2.5vw;
     }
     .IMG2 {
         margin-left: 5vw;
@@ -427,8 +460,8 @@ ul {
     .text2 {
         width: 250px;
         height: 100px;
-        margin-top: -12vh;
-        margin-left: 38vw;
+        margin-top: -15vh;
+        margin-left: 25vw;
         float: left;
         background-color: white;
         padding-left: 10px;
@@ -441,7 +474,7 @@ ul {
         display: unset;
         color: blue;
         margin-top: 3vh;
-        margin-left: 1vw;
+        margin-left: 2vw;
     }
     .text_content_p2 {
         display: unset;
@@ -466,15 +499,15 @@ ul {
         width: 10px;
         height: 100px;
         background-color: white;
-        margin-left: 35vw;
-        margin-top: -8.5vh;
+        margin-left: 54vw;
+        margin-top: -8vh;
         float: left;
     }
     .text3 {
         width: 250px;
         height: 100px;
-        margin-top: -3vh;
-        margin-left: 10vw;
+        margin-top: -6.5vh;
+        margin-left: 12vw;
         float: left;
     }
     .text_content2 {
@@ -485,27 +518,26 @@ ul {
         width: 10px;
         height: 100px;
         background-color: white;
-        margin-left: -4vw;
+        margin-left: -6vw;
         margin-top: -6vh;
         float: left;
     }
     .text7 {
         width: 100%;
+        margin-left: -2vw;
     }
     .right_t {
-        margin-top: 26.5vh;
-        margin-left: 3vw;
-    }
-    .left {
-        margin-left: 10vw;
+        margin-top: 24.5vh;
+        margin-left: 5vw;
+        padding-left: -2vw;
     }
     .right {
         margin-left: 8vw;
     }
     .footer {
-        width: 100%;
+        width: 130%;
     }
     .f_content {
-        width: 50%;
+        width: 80%;
     }
 }

@@ -135,7 +135,6 @@ p {
     margin-left: 49vw;
 }
 
-
 .img11 {
     width: 82%;
     margin-left: 14vw;
@@ -156,4 +155,106 @@ p {
     color: white;
     font-size: 4pt;
     border: white solid 1px;
+}
+
+@media(max-width:765px) {
+    .container {
+        padding-left: 5%;
+        padding-right: 1%;
+        margin: 0 auto;
+    }
+    .img1 {
+        margin-left: -2vw;
+        margin-top: 10vh;
+        width: 100%;
+    }
+    .article {
+        margin-left: 5vw;
+        margin-top: 5vh;
+    }
+    .b_title {
+        font-size: 18pt;
+        margin-left: 5vw;
+    }
+    p {
+        font-size: 14pt;
+        margin-left: -4vw;
+    }
+    .img2 {
+        margin-left: -2vw;
+        margin-top: 2vh;
+        width: 90vw;
+    }
+    .img3 {
+        margin-left: -2vw;
+        margin-top: 2vh;
+        width: 90vw;
+    }
+    .img_text {
+        margin-top: 1vh;
+        margin-left: 52vw;
+    }
+    .b_hr {
+        width: 75vw;
+        margin-top: 10vh;
+        margin-left: 5vw;
+    }
+    .group2 {
+        display: column;
+    }
+    .img4 {
+        width: 90vw;
+        height: 55vh;
+        margin-left: -90vw;
+        margin-top: 58vh;
+    }
+    .img5 {
+        width: 90vw;
+        margin-left: -90vw;
+        margin-top: 62vh;
+    }
+    .img_article {
+        margin-top: 10vh;
+        margin-left: -5vw;
+    }
+    .img6 {
+        margin-left: -90vw;
+        margin-top: 2vh;
+        width: 90vw;
+    }
+    .article2 {
+        margin-left: -6vw;
+        margin-top: 5vh;
+    }
+    .b_title {
+        margin-left: -2vw;
+    }
+    .img7 {
+        width: 90vw;
+        height: 55vh;
+        margin-top: 5vh;
+        margin-left: -2vw;
+    }
+    .img_text2 {
+        margin-top: 1vh;
+        padding-left: 17vw;
+    }
+    .img_text2 {
+        margin-top: 1vh;
+        margin-left: 42vw;
+    }
+    .img9 {
+        margin-left: -1vw;
+        width: 90vw;
+    }
+    .img10 {
+        margin-top: 2vh;
+        width: 90vw;
+        margin-left: -1vw;
+    }
+    .img11 {
+        margin-left: -2vw;
+        margin-top: 2vh;
+        width: 90vw;
+    }
 }

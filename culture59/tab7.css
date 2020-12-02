@@ -8,7 +8,7 @@ body {
     background-color: #DBD4D0;
 }
 
-.container{
+.container {
     padding-left: 1%;
     padding-right: 15%;
     margin: 0 auto;
@@ -37,7 +37,6 @@ body {
     margin-left: 14vw;
     margin-top: 20vh;
 }
-
 
 .b_hr {
     width: 68vw;
@@ -71,6 +70,12 @@ p {
     margin-bottom: 5vh;
 }
 
+.img_text2 {
+    margin-left: 75vw;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+
 .img2 {
     width: 40%;
     margin-left: 14vw;
@@ -97,4 +102,49 @@ p {
     color: white;
     font-size: 4pt;
     border: white solid 1px;
+}
+
+@media(max-width:765px) {
+    .container {
+        padding-left: 5%;
+        padding-right: 1%;
+        margin: 0 auto;
+    }
+    .img1 {
+        margin-left: -2vw;
+        margin-top: 10vh;
+        width: 100%;
+    }
+    .article {
+        margin-left: 3vw;
+        margin-top: 5vh;
+    }
+    .b_title {
+        font-size: 18pt;
+        margin-left: 5vw;
+    }
+    p {
+        font-size: 14pt;
+        margin-left: -4vw;
+    }
+    .img2 {
+        margin-left: -1vw;
+        margin-top: 10vh;
+        width: 90vw;
+        height: 50vh;
+    }
+    .img_text {
+        margin-left: 36vw;
+        margin-top: 1vh;
+    }
+    .img_text2 {
+        margin-left: 65vw;
+        margin-top: 1vh;
+    }
+    .img_article {
+        margin-top: 7vh;
+        margin-left: -7vw;
+        padding-right: 10vw;
+        padding-left: 5vw;
+    }
 }
