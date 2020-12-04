@@ -431,13 +431,13 @@ ul {
     }
 }
 
-@media(max-width:765px) {
+@media(max-width:768px) {
     .logo {
         margin: 0 auto;
     }
     .container {
         padding-left: 5%;
-        padding-right: 2%;
+        padding-right: 1%;
         margin: 0 auto;
     }
     .IMG1 {
@@ -521,7 +521,7 @@ ul {
         height: 100px;
         background-color: white;
         margin-left: -6vw;
-        margin-top: -6vh;
+        margin-top: -5.5vh;
         float: left;
     }
     .text7 {
