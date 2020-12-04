@@ -143,6 +143,9 @@ p {
 }
 
 @media(max-width:765px) {
+    .logo {
+        margin: 0 auto;
+    }
     .container {
         padding-left: 5%;
         padding-right: 1%;

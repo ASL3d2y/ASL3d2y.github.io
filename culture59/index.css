@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     transition: 0.5s;
     font-family: "微軟正黑體";
 }
@@ -30,6 +30,7 @@ a {
     font-size: 14pt;
     color: white;
     padding-left: 5vw;
+    margin-left: -90vw;
 }
 
 ul {
@@ -79,6 +80,7 @@ ul {
     height: 200px;
     background-color: white;
     margin-top: -33%;
+    margin-left: 0.2vw;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -290,29 +292,26 @@ ul {
 }
 
 @media(max-width:375px) {
-    .logo {
-        padding-left: 10vw;
-    }
     .container {
-        padding-left: 5%;
-        padding-right: 2%;
+        padding-left: 20%;
+        padding-right: 20%;
         margin: 0 auto;
     }
     .IMG1 {
-        margin-left: -15vw;
+        margin-left: 10vw;
         margin-top: 10vh;
         width: 85vw;
     }
     .text1 {
         font-size: 15pt;
-        margin-left: 10vw;
+        padding-right: 10vw;
     }
     hr {
         width: 100%;
         margin-left: 15vw;
     }
     .IMG2 {
-        margin-left: 14vw;
+        margin-left: -10vw;
         margin-top: 8vh;
         float: left;
         width: 90%;
@@ -321,7 +320,7 @@ ul {
         width: 250px;
         height: 100px;
         margin-top: -15vh;
-        margin-right: 30vw;
+        margin-left: calc(50% - 100px);
         float: left;
         background-color: white;
         padding-left: 10px;
@@ -387,7 +386,7 @@ ul {
         width: 130%;
     }
     .right_t {
-        margin-top: 26.5vh;
+        padding-top: 5.8%;
         margin-left: -15vw;
         padding-left: -2vw;
     }
@@ -433,6 +432,9 @@ ul {
 }
 
 @media(max-width:765px) {
+    .logo {
+        margin: 0 auto;
+    }
     .container {
         padding-left: 5%;
         padding-right: 2%;
