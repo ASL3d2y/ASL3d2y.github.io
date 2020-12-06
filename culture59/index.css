@@ -297,8 +297,14 @@ ul {
         padding-right: 20%;
         margin: 0 auto;
     }
+    body {
+        width: 375px;
+    }
+    .nav_bar {
+        width: 375px;
+    }
     .IMG1 {
-        margin-left: 10vw;
+        margin-left: 15vw;
         margin-top: 10vh;
         width: 85vw;
     }
@@ -320,7 +326,7 @@ ul {
         width: 250px;
         height: 100px;
         margin-top: -15vh;
-        margin-left: calc(50% - 100px);
+        margin-left: inherit;
         float: left;
         background-color: white;
         padding-left: 10px;
@@ -388,6 +394,115 @@ ul {
     .right_t {
         padding-top: 5.8%;
         margin-left: -15vw;
+        padding-left: -2vw;
+    }
+    .right {
+        margin-left: 8vw;
+    }
+    .footer {
+        width: 130%;
+    }
+    .f_content {
+        width: 80%;
+    }.logo {
+        margin: 0 auto;
+    }
+    .container {
+        padding-left: 5%;
+        padding-right: 1%;
+        margin: 0 auto;
+    }
+    .IMG1 {
+        margin-left: -2vw;
+        margin-top: 8vh;
+        width: 100%;
+    }
+    .text1 {
+        font-size: 15pt;
+        margin-left: 10vw;
+    }
+    hr {
+        width: 100%;
+        margin-left: -2.5vw;
+    }
+    .IMG2 {
+        margin-left: 5vw;
+        margin-top: 8vh;
+        float: left;
+        width: 90%;
+    }
+    .text2 {
+        width: 250px;
+        height: 100px;
+        margin-top: -15vh;
+        margin-left: 25vw;
+        float: left;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .text_content {
+        display: none;
+    }
+    .text_content_p {
+        display: unset;
+        color: blue;
+        margin-top: 3vh;
+        margin-left: 2vw;
+    }
+    .text_content_p2 {
+        display: unset;
+        color: blue;
+        margin-top: 3vh;
+        margin-left: 8vw;
+    }
+    .text_content_p3 {
+        display: unset;
+        color: blue;
+        margin-top: 3vh;
+        margin-left: 10vw;
+    }
+    .IMG3 {
+        margin-left: 6vw;
+        margin-top: 8vh;
+        float: left;
+        width: 90%;
+    }
+    .white {
+        display: unset;
+        width: 10px;
+        height: 100px;
+        background-color: white;
+        margin-left: 54vw;
+        margin-top: -8vh;
+        float: left;
+    }
+    .text3 {
+        width: 250px;
+        height: 100px;
+        margin-top: -6.5vh;
+        margin-left: 12vw;
+        float: left;
+    }
+    .text_content2 {
+        display: none;
+    }
+    .white2 {
+        display: unset;
+        width: 10px;
+        height: 100px;
+        background-color: white;
+        margin-left: -6vw;
+        margin-top: -5.5vh;
+        float: left;
+    }
+    .text7 {
+        width: 100%;
+        margin-left: -2vw;
+    }
+    .right_t {
+        margin-top: 24.5vh;
+        margin-left: 5vw;
         padding-left: -2vw;
     }
     .right {
